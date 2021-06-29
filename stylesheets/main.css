@@ -1,5 +1,5 @@
 h1 {
-  background-color: red;
+  background-color: tomato;
   padding: 12px 50px;
   color: white;
   font-size: 22px;
@@ -20,6 +20,7 @@ h1 {
 
 .left {
   flex-basis: 75%;
+  margin-left: 20px;
 }
 
 .right {
@@ -35,14 +36,27 @@ h1 {
 }
 
 li {
-  display: inline-block;
   background-color: black;
-  padding: 8px 700px;
+  padding: 8px;
   color: white;
   font-size: 15px;
   margin-bottom: 25px;
+}
+
+.firstlink {
+  padding-right: 15px;
   text-align: right;
-  margin-left: auto;
+}
+
+.secondlink{
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: right;
+}
+
+.thirdlink{
+  padding-left: 15px;
+  text-align: right;
 }
 
 h3 {
@@ -50,10 +64,21 @@ h3 {
   margin-top: 20px;
   margin-left: 15px;
   font-size: 20;
+  font-weight: bold;
 }
 
 p {
   text-align: justify;
   margin-left: 15px;
   font-size: 16;
+}
+
+.closing {
+  background-color: black;
+  margin-top: 20px;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
